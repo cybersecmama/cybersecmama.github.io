@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coming Soon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: #222;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container {
+      text-align: center;
+      padding: 40px 20px;
+      background: rgba(30,30,30,0.85);
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1.25em;
+      margin-bottom: 1.5em;
+      color: #cfcfcf;
+    }
+    .notify {
+      margin-top: 1em;
+    }
+    input[type="email"] {
+      padding: 10px;
+      border-radius: 4px 0 0 4px;
+      border: none;
+      outline: none;
+      width: 220px;
+      font-size: 1em;
+    }
+    button {
+      padding: 10px 16px;
+      border-radius: 0 4px 4px 0;
+      border: none;
+      background: #4e8cff;
+      color: #fff;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background: #2a6ad7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Coming Soon</h1>
+    <p>Our website is under construction.<br>
+    We'll be here soon with our new awesome site.<br>
+    Stay tuned!</p>
+    <div class="notify">
+      <form>
+        <input type="email" placeholder="Your email" required>
+        <button type="submit" disabled>Notify Me</button>
+      </form>
+      <small style="display:block; margin-top:8px; color:#888;">(Notification feature coming soon)</small>
+    </div>
+  </div>
+</body>
+</html>
