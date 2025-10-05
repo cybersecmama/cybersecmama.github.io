@@ -1,0 +1,17 @@
+body {
+    background: #eef4fa;
+    color: #222;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+a, h1, h2, h3 {
+    color: #e4572e;
+}
+header, footer {
+    background: #dde7f2;
+    border-top: 3px solid #e4572e;
+}
+.warning {
+    background: #fff3f0;
+    border-left: 5px solid #e4572e;
+    padding: 1em;
+}
