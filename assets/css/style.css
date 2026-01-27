@@ -8,12 +8,16 @@ body {
   background-color: #f5f9fd;
   color: #2c3e50;
   line-height: 1.6;
+
+  /* Centre content */
+  display: flex;
+  justify-content: center;
 }
 
 /* Layout */
 .container {
   max-width: 800px;
-  margin: 0 auto;
+  width: 100%;
   padding: 2rem 1rem;
 }
 
